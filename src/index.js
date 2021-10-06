@@ -7,7 +7,7 @@ import Landing from "./Landing";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing width="500" height="500" />
+    <Landing width="250" height="200" />
   </React.StrictMode>,
   document.getElementById("root")
 );
