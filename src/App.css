@@ -1,8 +1,0 @@
-.mainsection{
-  min-height: 100vh;
-  background: -webkit-linear-gradient(top right, #000000, rgb(0, 74, 173));
-  background: -moz-linear-gradient(top right, #000000, rgb(0, 74, 173));
-  background: linear-gradient(to bottom left, #000000, rgb(0, 74, 173));
-}
-
-

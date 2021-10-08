@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Landing from "./Landing";
-
+import Nav from "./Nav";
 ReactDOM.render(
   <React.StrictMode>
-    <Landing width="250" height="200" />
+    <Nav />
+    <Landing width="300" height="200" />
   </React.StrictMode>,
   document.getElementById("root")
 );
@@ -16,4 +16,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
