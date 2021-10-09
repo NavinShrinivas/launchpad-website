@@ -32,8 +32,13 @@ code {
     .logo {
         font-size: 25px !important;
         align :center;
+        padding : 0px!important;
     }
     .links {
         display:none;
+    }
+    .lplogo{
+        width:150px;
+        height:100px;
     }
 }

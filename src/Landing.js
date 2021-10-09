@@ -11,6 +11,7 @@ class Landing extends Component {
           width={this.props.width}
           height={this.props.height}
           alt="LauchPad logo"
+          class="lplogo"
         />
       </div>
     );
