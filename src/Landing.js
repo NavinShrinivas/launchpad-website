@@ -6,7 +6,12 @@ class Landing extends Component {
   render() {
     return (
       <div className="mainlogo">
-        <img src={logo} width={this.props.width} height={this.props.height} />
+        <img
+          src={logo}
+          width={this.props.width}
+          height={this.props.height}
+          alt="LauchPad logo"
+        />
       </div>
     );
   }
