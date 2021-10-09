@@ -18,4 +18,22 @@ code {
 }
 *{
     margin : 0px;
+    -webkit-padding-start: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    .navbar{
+        display: flex!important;
+        height: 50px !important;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .logo {
+        font-size: 25px !important;
+        align :center;
+    }
+    .links {
+        display:none;
+    }
 }
