@@ -4,6 +4,7 @@ html{
 
 body {
     background-image: linear-gradient(to right top, #051937, #01214d, #002863, #042f79, #163590);
+    background-repeat: no-repeat;
     min-height:100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen'
     sans-serif;
@@ -14,4 +15,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+    margin : 0px;
 }
