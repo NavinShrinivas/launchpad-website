@@ -4,10 +4,12 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Landing from "./Landing";
 import Nav from "./Nav";
+
+ReactDOM.render(<Nav />, document.getElementById("navbar"));
+
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
-    <Landing width="300" height="200" />
+    <Landing width="400" height="300" />
   </React.StrictMode>,
   document.getElementById("root")
 );

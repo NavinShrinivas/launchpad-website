@@ -3,8 +3,7 @@ html{
 }
 
 body {
-    background-image: linear-gradient(to right top, #051937, #01214d, #002863, #042f79, #163590);
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom left, #000000, rgb(0, 74, 173));    background-repeat: no-repeat;
     min-height:100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen'
     sans-serif;
@@ -38,7 +37,7 @@ code {
         display:none;
     }
     .lplogo{
-        width:150px;
-        height:100px;
+        width:200px;
+        height:150px;
     }
 }

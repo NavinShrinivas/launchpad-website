@@ -7,6 +7,28 @@
 }
 .mainlogo{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding : 50px;
+}
+
+
+.timer{
+    display: flex;
     justify-content: center;
     align-items: center;
+    grid-gap: 13px;
+}
+
+.timecard{
+    border-radius : 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "JetBrains Mono", monospace;
+    color :white;
+    font-size: 25px;
+    padding : 20px;
+    letter-spacing: 1.5px;
+    align-items: center;
+    vertical-align: middle;
+
 }

@@ -1,6 +1,6 @@
 .navbar{
     display : flex;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     height:90px;
     align-items: center;
     margin: var(--gutter);
@@ -28,4 +28,6 @@ a{
     color:white;
     text-decoration:none;
 }
+
+
 
