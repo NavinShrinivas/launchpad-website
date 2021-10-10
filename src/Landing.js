@@ -61,7 +61,6 @@ function Landing(props) {
     }, 1000);
     return () => clearTimeout(timer);
   });
-  if (timeLeft === "0") var { openformstate } = true;
   return (
     <div>
       <div className="mainlogo">
@@ -106,7 +105,7 @@ function Landing(props) {
         Keep an eye out for updates about the event on this website.
         <br />
         You can also follow up through other platforms listed{" "}
-        <a href="" className="platformlink">
+        <a href="/" className="platformlink">
           here
         </a>
         !
