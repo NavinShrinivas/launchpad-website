@@ -30,14 +30,20 @@ function calculateTimeLeft() {
     return retval;
   } else {
     retval = {
-      days: "Event over",
-      hours: "",
-      minutes: "",
-      seconds: "",
+      days: "00",
+      hours: "00",
+      minutes: "00",
+      seconds: "00",
     };
 
     return retval;
   }
+}
+
+function regsiterrender() {
+  if (calculateTimeLeft().days === "00")
+    return <button className="registerbutton">Register!</button>;
+  else return <button className="registerbutton">Registrations Soon!</button>;
 }
 
 function Landing(props) {
@@ -55,6 +61,7 @@ function Landing(props) {
     }, 1000);
     return () => clearTimeout(timer);
   });
+  if (timeLeft === "0") var { openformstate } = true;
   return (
     <div>
       <div className="mainlogo">
@@ -88,6 +95,22 @@ function Landing(props) {
           SS
         </p>
       </div>
+      <div className="register">{regsiterrender()}</div>
+      <p
+        style={{
+          "text-align": "center",
+          color: "white",
+          padding: "0px 10px 0px 20px",
+        }}
+      >
+        Keep an eye out for updates about the event on this website.
+        <br />
+        You can also follow up through other platforms listed{" "}
+        <a href="" className="platformlink">
+          here
+        </a>
+        !
+      </p>
     </div>
   );
 }

@@ -19,7 +19,7 @@
 }
 .logo{
     list-style: none;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "JetBrains Mono", monospace !important;
     font-size: 2rem;
     letter-spacing: 1.5px;
     padding-left : 50px;

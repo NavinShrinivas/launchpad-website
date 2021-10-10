@@ -3,10 +3,9 @@ html{
 }
 
 body {
-    background: linear-gradient(to bottom left, #000000, rgb(0, 74, 173));    background-repeat: no-repeat;
-    min-height:100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen'
-    sans-serif;
+    background: linear-gradient(to bottom left, #000000, rgb(0, 74, 173)); 
+    min-height:100% !important; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen' ,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
