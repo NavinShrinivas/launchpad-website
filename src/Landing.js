@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Landing.css";
 import logo from "./assets/lgo1.png";
 import { useEffect, useState } from "react";
