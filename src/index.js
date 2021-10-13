@@ -2,19 +2,30 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Landing from "./Landing";
 import Nav from "./Nav";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Landing from "./Landing.js";
+import Reach from "./reach.js";
 
-ReactDOM.render(<Nav />, document.getElementById("navbar"));
-
+/*
+ *ReactDOM.render(<Nav />, document.getElementById("navbar"));
+ */
 ReactDOM.render(
   <React.StrictMode>
-    <Landing width="400" height="300" />
+    <Router>
+      <Nav />
+      <Route exact path="/reachus" component={() => <Reach />} />
+      <Route
+        exact
+        path="/"
+        component={() => <Landing width="400" height="300" />}
+      />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
+//If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

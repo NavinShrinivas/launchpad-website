@@ -11,11 +11,8 @@
     transition: transform .4s;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    padding-right: 50px;
+    padding-right: 70px;
     margin-left: auto;
-}
-.links:hover{
-    transform: scale(1.2);
 }
 .logo{
     list-style: none;

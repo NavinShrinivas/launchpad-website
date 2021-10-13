@@ -113,5 +113,4 @@ function Landing(props) {
     </div>
   );
 }
-
 export default Landing;
