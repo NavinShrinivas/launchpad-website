@@ -1,0 +1,25 @@
+.about{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding : 80px;
+}
+.aboutcard{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "JetBrains Mono", monospace;
+    color :white;
+    border-radius : 20px;
+}
+
+.aboutthings{
+    padding : 40px;
+}
+
+.tlist{
+    padding-left : 60px;
+}
+
+

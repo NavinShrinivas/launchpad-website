@@ -8,18 +8,19 @@ class Nav extends Component {
       <div className="navbar">
         <ul class="logo">
           <li class="logostyle">
-            <Link exact to="/">
+            <a href="https://hackerspace-pesu.herokuapp.com/">
               &lt;/HackerSpace&gt;
-            </Link>
+            </a>
           </li>
         </ul>
-        <ul class="links">
-          <li class="linkstyle">
-            <Link exact to="/reachus">
-              Reach Us!
-            </Link>
-          </li>
-        </ul>
+        <div class="links">
+          <a class="linktext" href="/#about">
+            About
+          </a>
+          <Link class="linktext" exact to="/reachus">
+            Reach Us!
+          </Link>
+        </div>
       </div>
     );
   }

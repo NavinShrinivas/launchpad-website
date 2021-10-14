@@ -1,12 +1,19 @@
+.linkmain{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding : 60px;
+    flex-direction: column;
+}
+
 .maintext{
     display: flex;
     align-items : center;
     justify-content: center;
-    padding : 50px;
 }
 .mainp{
     color : white !important;
-    font-size : 25px !important;
+    font-size : 25px;
 }
 
 .reachlogo{
@@ -27,4 +34,8 @@
     flex-direction : column;
     justify-content: center;
     align-items : center;
+}
+
+.linkmain{
+    padding : 40px;
 }

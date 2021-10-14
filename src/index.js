@@ -6,7 +6,7 @@ import Nav from "./Nav";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./Landing.js";
 import Reach from "./reach.js";
-
+import Landing2 from "./landing2.js";
 /*
  *ReactDOM.render(<Nav />, document.getElementById("navbar"));
  */
@@ -18,7 +18,12 @@ ReactDOM.render(
       <Route
         exact
         path="/"
-        component={() => <Landing width="400" height="300" />}
+        component={() => (
+          <div>
+            <Landing width="400" height="300" />
+            <Landing2 />
+          </div>
+        )}
       />
     </Router>
   </React.StrictMode>,

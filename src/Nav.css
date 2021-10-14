@@ -7,12 +7,13 @@
     font-family: "Roboto", sans-serif;
 }
 .links{
+    display : flex;
     list-style: none;
-    transition: transform .4s;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     padding-right: 70px;
     margin-left: auto;
+    grid-gap : 60px;
 }
 .logo{
     list-style: none;
@@ -20,6 +21,9 @@
     font-size: 2rem;
     letter-spacing: 1.5px;
     padding-left : 50px;
+}
+.linktext{
+    font-size : 30px;
 }
 a{
     color:white;

@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css";
 import logo from "./assets/lgo1.png";
 import { useEffect, useState } from "react";
-
+import { Link } from "react-router-dom";
 function calculateTimeLeft() {
   let retval = {};
   let lauchpadtime = new Date("Oct 21, 2021 00:00:00 GMT+05:30");
@@ -105,9 +105,9 @@ function Landing(props) {
         Keep an eye out for updates about the event on this website.
         <br />
         You can also follow up through other platforms listed{" "}
-        <a href="/" className="platformlink">
+        <Link exact to="/reachus" className="platformlink">
           here
-        </a>
+        </Link>
         !
       </p>
     </div>
