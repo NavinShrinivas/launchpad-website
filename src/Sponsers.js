@@ -8,7 +8,6 @@ function Sponsors(props) {
     <div class="sponsors" id="sponsors">
       <div class="sponsorcard">
         <div class="sponsorthings">
-          <h2 class="head">Sponsors</h2>
           <br />
           <div class="logoflex">
             <a href="https://www.instagram.com/peshackerspace.ecc/">

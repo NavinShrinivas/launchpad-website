@@ -41,22 +41,17 @@ function calculateTimeLeft() {
   }
 }
 
-
 function regsiterrender() {
-    return (
-        <>
-        <a href="">
-          <button className="registerbutton">
-            Register Now!
-          </button>
-        </a>
-        <a href="">
-          <button className="registerbutton">
-            Join Our Discord Server!
-          </button>
-        </a>
-        </>
-    );
+  return (
+    <>
+      <a href="https://bit.ly/3BSbXyl">
+        <button className="registerbutton">Register Now!</button>
+      </a>
+      <a href="https://discord.gg/9zbDAh76Y2">
+        <button className="registerbutton">Event Discord Server!</button>
+      </a>
+    </>
+  );
 }
 
 function Landing(props) {
@@ -75,7 +70,7 @@ function Landing(props) {
     return () => clearTimeout(timer);
   });
   return (
-    <div>
+    <div class="aboutcard">
       <div className="mainlogo">
         <img
           src={logo}
@@ -87,34 +82,39 @@ function Landing(props) {
       </div>
       <div className="timer">
         <p className="timecard">
-          {timeLeft.days} DD
+          {timeLeft.days} <br />
+          DD
         </p>
         <p className="timecard">
-          {timeLeft.hours} HH
+          {timeLeft.hours}
+          <br /> HH
         </p>
         <p className="timecard">
-          {timeLeft.minutes} MM
+          {timeLeft.minutes} <br /> MM
         </p>
         <p className="timecard">
-          {timeLeft.seconds} SS
+          {timeLeft.seconds}
+          <br /> SS
         </p>
       </div>
       <div className="register">{regsiterrender()}</div>
-      <p
-        style={{
-          "text-align": "center",
-          color: "white",
-          padding: "60px 10px 0px 20px",
-        }}
-      >
-        Keep an eye out for updates about the event on this website.
-        <br />
-        You can also follow up through other platforms listed{" "}
-        <Link exact to="/reachus" className="platformlink">
-          here
-        </Link>
-        !
-      </p>
+      <div class="mainlogo">
+        <p
+          style={{
+            "text-align": "center",
+            color: "white",
+            padding: "60px 10px 0px 20px",
+          }}
+        >
+          Keep an eye out for updates about the event on this website.
+          <br />
+          You can also follow up through other platforms listed{" "}
+          <Link exact to="/reachus" className="platformlink">
+            here
+          </Link>
+          !
+        </p>
+      </div>
     </div>
   );
 }

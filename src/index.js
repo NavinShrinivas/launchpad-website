@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./Landing.js";
 import Reach from "./reach.js";
 import Landing2 from "./landing2.js";
-import Sponsors from "./Sponsers.js";
 /*
  *ReactDOM.render(<Nav />, document.getElementById("navbar"));
  */
@@ -16,13 +15,16 @@ ReactDOM.render(
     <Router>
       <Nav />
       <Route exact path="/reachus" component={() => <Reach />} />
-      <Route exact path="/" component={() => (
+      <Route
+        exact
+        path="/"
+        component={() => (
           <div>
-            <Landing width="100px" height="500px" />
+            <Landing width="400" height="300" />
             <Landing2 />
-            <Sponsors />
           </div>
-        )} />
+        )}
+      />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
