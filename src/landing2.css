@@ -3,6 +3,7 @@
     padding : 110px 200px 60px 200px;
 }
 .aboutcard{
+    align-self : stretch;
     display:flex;
     flex-direction:column!important;
     background-color: rgba(0, 0, 0, 0.5);

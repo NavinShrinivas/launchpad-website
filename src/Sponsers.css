@@ -1,0 +1,41 @@
+.sponsors{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+.sponsorcard{
+    flex-direction : column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap : wrap;
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "JetBrains Mono", monospace;
+    color :white;
+    border-radius : 13px;
+}
+
+.head{
+    text-align: center!important;
+}
+.sponsorthings{
+    flex-direction : column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 40px 60px 60px 60px;
+}
+.logoflex{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height: 56px;
+    width: 350px;
+}
+.logo2{
+    height : auto;
+    width : 70px;
+    align-items: center;
+}
+

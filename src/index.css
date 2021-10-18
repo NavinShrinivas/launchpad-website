@@ -88,6 +88,20 @@ html {
     .plist{
         padding : 20px !important;
     }
+    .logoflex{
+        flex-direction : column!important;
+        grid-gap : 15px !important;
+    }
+    .sponsors{
+        padding : 20px;
+    }
+    .logo{
+        height : 23px!important;
+        width : 175px!important;
+    }
+    .logo2{
+        padding-left : 50px;
+    }
 }
 body::-webkit-scrollbar {
     width: 8px;
