@@ -7,6 +7,9 @@ function Landing2(props) {
         <div class="aboutthings">
           <h2 class="abouthead">About LaunchPad</h2>
           <br />
+          <br />
+          <h3>Introduction</h3>
+          <br />
           <p class="abouttext1">
             HackerSpace LaunchPad is an ideathon where students think of
             solutions to some of the world's most pressing issues whilst keeping
@@ -16,7 +19,8 @@ function Landing2(props) {
             and systems thinking applied to the world around us, and we at
             HackerSpace EC Campus believe we can help foster this very spirit of
             innovation, future-oriented thinking and cross-domain creativity
-            through LaunchPad, our first ever ideathon. <br />{" "}
+            through LaunchPad, our first ever ideathon.
+            <br />
           </p>
           <p class="abouttext2">
             LaunchPad is a three-stage ideathon conducted in a Hybrid mode,
@@ -35,6 +39,18 @@ function Landing2(props) {
               <li>IOT</li>
               <li>Big Data</li>
             </ul>
+          </p>
+        </div>
+        <div class="probthings">
+          <h3>Problem Statement</h3>
+          <br />
+          <p>
+            <ol class="tlist">
+              <li> Improving the state of the hybrid education model</li>
+              <li> Smart Carbon Footprint tracking and reduction</li>
+              <li> Optimizing The Venture Capital Pipeline</li>
+              <li> Technologically Enabling small businesses</li>
+            </ol>
           </p>
         </div>
       </div>

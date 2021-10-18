@@ -61,7 +61,16 @@ html {
     .about{
         padding : 20px!important;
     }
+    .last{
+        padding : 20px !important;
+    }
     .aboutthings{
+        padding : 32px!important;
+    }
+    .probthings{
+        padding :32px !important;
+    }
+    .probdiv{
         padding : 20px;
     }
     .abouthead{
@@ -76,4 +85,17 @@ html {
     .tlist{
         padding-left : 30px!important;
     }
+    .plist{
+        padding : 20px !important;
+    }
+}
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color:rgb(30,255,0);
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-track {
+    background: transparent;
 }

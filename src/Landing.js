@@ -11,19 +11,19 @@ function calculateTimeLeft() {
   if (diff > 0) {
     retval = {
       days:
-        Math.floor(diff / (1000 * 60 * 60 * 24)) < 9
+        Math.floor(diff / (1000 * 60 * 60 * 24)) <= 9
           ? "0" + Math.floor(diff / (1000 * 60 * 60 * 24))
           : Math.floor(diff / (1000 * 60 * 60 * 24)),
       hours:
-        Math.floor((diff / (1000 * 60 * 60)) % 24) < 9
+        Math.floor((diff / (1000 * 60 * 60)) % 24) <= 9
           ? "0" + Math.floor((diff / (1000 * 60 * 60)) % 24)
           : Math.floor((diff / (1000 * 60 * 60)) % 24),
       minutes:
-        Math.floor((diff / 1000 / 60) % 60) < 9
+        Math.floor((diff / 1000 / 60) % 60) <= 9
           ? "0" + Math.floor((diff / 1000 / 60) % 60)
           : Math.floor((diff / 1000 / 60) % 60),
       seconds:
-        Math.floor((diff / 1000) % 60) < 9
+        Math.floor((diff / 1000) % 60) <= 9
           ? "0" + Math.floor((diff / 1000) % 60)
           : Math.floor((diff / 1000) % 60),
     };
@@ -42,7 +42,11 @@ function calculateTimeLeft() {
 
 function regsiterrender() {
   if (calculateTimeLeft().days === "00")
-    return <button className="registerbutton">Register!</button>;
+    return (
+      <button className="registerbutton">
+        <a href="https://www.google.com/">Register!</a>
+      </button>
+    );
   else return <button className="registerbutton">Registrations Soon!</button>;
 }
 
@@ -99,7 +103,7 @@ function Landing(props) {
         style={{
           "text-align": "center",
           color: "white",
-          padding: "0px 10px 0px 20px",
+          padding: "60px 10px 0px 20px",
         }}
       >
         Keep an eye out for updates about the event on this website.
