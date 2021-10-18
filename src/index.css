@@ -3,11 +3,12 @@ html{
 }
 
 body {
-    background: linear-gradient(to bottom left, #000000, rgb(0, 74, 173)); 
+    background: linear-gradient(to bottom left, #000000, #000); 
     min-height:100% !important; 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen' ,sans-serif;
+    font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen' ,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.2em;
 }
 
 code {
@@ -47,7 +48,7 @@ html {
     grid-gap : 30px !important;
     }
     .maintext{
-        font-size : 16px!important;
+        font-size : 1.2em!important;
         align-content: center;
         justify-content: center;
         align-text: center;
@@ -80,7 +81,7 @@ html {
         display : none!important;
     }
     .abouttext2{
-        font-size :15px;
+        font-size : 0.9em;
     }
     .tlist{
         padding-left : 30px!important;
@@ -98,4 +99,17 @@ body::-webkit-scrollbar-thumb {
 }
 body::-webkit-scrollbar-track {
     background: transparent;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+    color: #4dff00;
+    font-family: 'VT323', monospace;
+    text-decoration: underline;
+}
+
+.emphasis {
+    font-size: 1.5em;
+    color: #4dff00;
+    font-family: 'VT323', monospace;
+    text-decoration: underline;
 }

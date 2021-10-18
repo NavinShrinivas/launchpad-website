@@ -3,9 +3,10 @@ import "./Landing.css";
 import logo from "./assets/lgo1.png";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+
 function calculateTimeLeft() {
   let retval = {};
-  let lauchpadtime = new Date("Oct 21, 2021 00:00:00 GMT+05:30");
+  let lauchpadtime = new Date("Oct 26, 2021 00:00:00 GMT+05:30");
   let date_obj = new Date();
   let diff = lauchpadtime.getTime() - date_obj.getTime();
   if (diff > 0) {
@@ -40,14 +41,22 @@ function calculateTimeLeft() {
   }
 }
 
+
 function regsiterrender() {
-  if (calculateTimeLeft().days === "00")
     return (
-      <button className="registerbutton">
-        <a href="https://www.google.com/">Register!</a>
-      </button>
+        <>
+        <a href="">
+          <button className="registerbutton">
+            Register Now!
+          </button>
+        </a>
+        <a href="">
+          <button className="registerbutton">
+            Join Our Discord Server!
+          </button>
+        </a>
+        </>
     );
-  else return <button className="registerbutton">Registrations Soon!</button>;
 }
 
 function Landing(props) {
@@ -78,24 +87,16 @@ function Landing(props) {
       </div>
       <div className="timer">
         <p className="timecard">
-          {timeLeft.days}
-          <br />
-          DD
+          {timeLeft.days} DD
         </p>
         <p className="timecard">
-          {timeLeft.hours}
-          <br />
-          HH
+          {timeLeft.hours} HH
         </p>
         <p className="timecard">
-          {timeLeft.minutes}
-          <br />
-          MM
+          {timeLeft.minutes} MM
         </p>
         <p className="timecard">
-          {timeLeft.seconds}
-          <br />
-          SS
+          {timeLeft.seconds} SS
         </p>
       </div>
       <div className="register">{regsiterrender()}</div>
