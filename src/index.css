@@ -107,6 +107,12 @@ html {
     body::-webkit-scrollbar {
         width: 0px;
     }
+    .cshidden{
+        display  : block!important;
+    }
+    .campus{
+        text-align : center;
+    }
 }
 body::-webkit-scrollbar {
     width: 8px;

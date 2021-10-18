@@ -10,6 +10,8 @@ class Nav extends Component {
           <li class="logostyle">
             <a href="https://hackerspace-pesu.herokuapp.com/">
               &lt;/HackerSpace&gt;
+              <span class="cshidden"></span>
+              <span class="campus">EC Campus</span>
             </a>
           </li>
         </ul>
