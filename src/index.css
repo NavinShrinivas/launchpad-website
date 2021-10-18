@@ -1,8 +1,11 @@
+html{
+    min-height:100%;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    background: linear-gradient(to bottom left, #000000, rgb(0, 74, 173)); 
+    min-height:100% !important; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen' ,sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +13,89 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+    margin : 0px;
+    -webkit-padding-start: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1000px){
+    .navbar{
+        display: flex!important;
+        height: 50px !important;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .logo {
+        font-size: 25px !important;
+        align :center;
+        padding : 0px!important;
+    }
+    .links {
+        display:none!important;
+    }
+    .lplogo{
+        width:200px;
+        height:150px;
+    }
+    .reachlogo{
+    flex-direction :column !important;
+    grid-gap : 30px !important;
+    }
+    .maintext{
+        font-size : 16px!important;
+        align-content: center;
+        justify-content: center;
+        align-text: center;
+    }
+    .ptext{
+        text-align : center !important;
+    }
+    .mainp{
+        font-size : 16px!important;
+    }
+    .about{
+        padding : 20px!important;
+    }
+    .last{
+        padding : 20px !important;
+    }
+    .aboutthings{
+        padding : 32px!important;
+    }
+    .probthings{
+        padding :32px !important;
+    }
+    .probdiv{
+        padding : 20px;
+    }
+    .abouthead{
+        font-size : 19;
+    }
+    .abouttext1{
+        display : none!important;
+    }
+    .abouttext2{
+        font-size :15px;
+    }
+    .tlist{
+        padding-left : 30px!important;
+    }
+    .plist{
+        padding : 20px !important;
+    }
+}
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color:rgb(30,255,0);
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-track {
+    background: transparent;
 }

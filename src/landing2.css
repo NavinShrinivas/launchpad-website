@@ -1,0 +1,29 @@
+.about{
+    display:flex;
+    padding : 110px 200px 60px 200px;
+}
+.aboutcard{
+    display:flex;
+    flex-direction:column!important;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "JetBrains Mono", monospace;
+    color :white;
+    border-radius : 13px;
+}
+
+.abouthead{
+    text-align: center!important;
+}
+.aboutthings{
+    padding : 40px 60px 60px 60px;
+}
+
+.tlist{
+    padding-left : 60px;
+}
+
+.probthings{
+    padding : 0px 60px 60px 60px;
+}
+
+

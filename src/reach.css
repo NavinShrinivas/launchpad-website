@@ -1,0 +1,41 @@
+.linkmain{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding : 60px;
+    flex-direction: column;
+}
+
+.maintext{
+    display: flex;
+    align-items : center;
+    justify-content: center;
+}
+.mainp{
+    color : white !important;
+    font-size : 25px;
+}
+
+.reachlogo{
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    padding : 20px;
+    grid-gap : 90px;
+}
+
+.logocap{
+    font : 20px;
+    color : white !important;
+}
+
+.logopcap{
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items : center;
+}
+
+.linkmain{
+    padding : 40px;
+}
