@@ -4,16 +4,21 @@
     align-items: center;
     padding : 60px;
     flex-direction: column;
+    color: #4dff00;
+    font-family: 'VT323', monospace;
+    font-size : 1.8rem;
+
 }
 
 .maintext{
     display: flex;
     align-items : center;
     justify-content: center;
+    font-size : 2.4rem;
 }
 .mainp{
     color : white !important;
-    font-size : 25px;
+    font-size : 2.4rem;
 }
 
 .reachlogo{
@@ -38,4 +43,11 @@
 
 .linkmain{
     padding : 40px;
+}
+
+.emphasis {
+    font-size: 1.5em;
+    color: #4dff00;
+    font-family: 'VT323', monospace;
+    text-decoration: underline;
 }

@@ -7,7 +7,10 @@ class Reach extends Component {
     return (
       <div class="linkmain">
         <div className="maintext">
-          <p className="mainp">Reach us on any of the following places : </p>
+          <p className="mainp">
+            Reach us on <span class="emphasis">any</span> of the following
+            places :{" "}
+          </p>
         </div>
         <div>
           <div className="reachlogo">
