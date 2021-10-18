@@ -6,6 +6,7 @@
     margin: var(--gutter);
     color: #4dff00!important;
     font-family: 'VT323', monospace !important;
+    text-decoration: underline;
 }
 .links{
     display : flex;
@@ -30,6 +31,7 @@ a{
 }
 .campus{
     font-size : 1.7rem;
+    text-decoration: none!important;
 }
 .cshidden{
     display: none;
