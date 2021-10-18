@@ -47,11 +47,11 @@
     padding-top : 20px;
     padding-bottom : 20px;
     font-size : 25px;
-    border-radius : 20px;
-    border: 3px solid currentColor;
+    border: 3px solid #4dff00;
     background: transparent;
     font-weight : bold;
     color:white;
+    margin: 1em;
 }
 
 .platformlink{

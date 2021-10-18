@@ -16,17 +16,13 @@ ReactDOM.render(
     <Router>
       <Nav />
       <Route exact path="/reachus" component={() => <Reach />} />
-      <Route
-        exact
-        path="/"
-        component={() => (
+      <Route exact path="/" component={() => (
           <div>
-            <Landing width="400" height="300" />
+            <Landing width="100px" height="500px" />
             <Landing2 />
             <Sponsors />
           </div>
-        )}
-      />
+        )} />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
