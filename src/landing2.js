@@ -73,7 +73,6 @@ function Landing2(props) {
         </div>
 
         <div class="probthings">
-          <h1>Sponsors</h1>
           <Sponsor />
         </div>
 
