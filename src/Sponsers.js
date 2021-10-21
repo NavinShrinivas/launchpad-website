@@ -1,7 +1,6 @@
 import React from "react";
 import "./Sponsers.css";
-import wolfram from "./assets/wolfram.svg";
-import balsmiq from "./assets/balsmiq.svg";
+import wolfram from "./assets/wolf1.png";
 import pvl from "./assets/PVL.png";
 function Sponsors(props) {
   return (
@@ -10,15 +9,18 @@ function Sponsors(props) {
         <div class="sponsorthings">
           <br />
           <div class="logoflex">
-            <a href="https://www.instagram.com/peshackerspace.ecc/">
-              <img class="logo" src={wolfram} alt="wolfram logo" />
-            </a>
-            <a href="https://www.instagram.com/peshackerspace.ecc/">
-              <img class="logo" src={balsmiq} alt="balsmiq logo" />
-            </a>
-            <a href="https://www.instagram.com/peshackerspace.ecc/">
-              <img class="logo2" src={pvl} alt="balsmiq logo" />
-            </a>
+            <div class="col">
+              <h2>Sponsored By : </h2>
+              <a href="https://www.wolfram.com/language/">
+                <img class="logo" src={wolfram} alt="wolfram logo" />
+              </a>
+            </div>
+            <div class="col">
+              <h2>Supported by : </h2>
+              <a class="ac" href="https://pesuventurelabs.com/#/">
+                <img class="logo2" src={pvl} alt="pvl logo" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

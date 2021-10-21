@@ -30,12 +30,21 @@
     justify-content: space-around;
 }
 .logo{
-    height: 56px;
-    width: 350px;
+    height: 168px;
+    width: 168px;
 }
 .logo2{
-    height : auto;
-    width : 70px;
+    height : 168px;
+    width : 168px;
     align-items: center;
 }
+.col{
+    display :flex !important;
+    flex-direction : column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 
+.ac{
+    dispay : block;
+}
