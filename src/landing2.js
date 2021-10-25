@@ -1,5 +1,7 @@
 import React from "react";
 import "./landing2.css";
+import Sponsor from "./Sponsers.js";
+
 function Landing2(props) {
   return (
     <div class="about" id="about">
@@ -71,8 +73,7 @@ function Landing2(props) {
         </div>
 
         <div class="probthings">
-          <h1>Sponsors</h1>
-          Coming Soon!
+          <Sponsor />
         </div>
 
         <div class="probthings">
