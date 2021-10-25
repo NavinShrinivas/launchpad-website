@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function calculateTimeLeft() {
   let retval = {};
-  let lauchpadtime = new Date("Oct 26, 2021 00:00:00 GMT+05:30");
+  let lauchpadtime = new Date("Oct 26, 2021 23:59:00 GMT+05:30");
   let date_obj = new Date();
   let diff = lauchpadtime.getTime() - date_obj.getTime();
   if (diff > 0) {
