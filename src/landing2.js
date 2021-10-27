@@ -1,55 +1,112 @@
 import React from "react";
 import "./landing2.css";
+import Sponsor from "./Sponsers.js";
+
 function Landing2(props) {
   return (
     <div class="about" id="about">
       <div class="aboutcard">
         <div class="aboutthings">
-          <h2 class="abouthead">About LaunchPad</h2>
           <br />
           <br />
-          <h3>Introduction</h3>
+          <h1>What's LaunchPad?</h1>
           <br />
-          <p class="abouttext1">
-            HackerSpace LaunchPad is an ideathon where students think of
-            solutions to some of the world's most pressing issues whilst keeping
-            technology as a major driver of change.
-            <br /> Today's rapidly changing world presents a unique set of
-            challenges that require innovation at the intersection of technology
-            and systems thinking applied to the world around us, and we at
-            HackerSpace EC Campus believe we can help foster this very spirit of
-            innovation, future-oriented thinking and cross-domain creativity
-            through LaunchPad, our first ever ideathon.
-            <br />
-          </p>
+
           <p class="abouttext2">
-            LaunchPad is a three-stage ideathon conducted in a Hybrid mode,
-            where the first two rounds will be held online, and the last round
-            will be held offline. A segment of problem statements shall be
-            provided upon which students can base their ideas, but there's no
-            effective restriction on the problems that can be solved. <br /> The
-            solutions presented must make use of technology, including, but not
-            limited to, at least one of the following : <br /> <br />
+            LaunchPad is a{" "}
+            <span class="emphasis">two-stage technical ideathon</span> organized
+            by HackerSpace PESU EC Campus, conducted in a Hybrid mode, where the
+            first round will be held online,{" "}
+            <span class="emphasis">
+              {" "}
+              and the final round will be held offline
+            </span>
+            .
+            <br />
+            <br />
+            We've got a number of exciting problem statements for you, but
+            there's <span class="emphasis">
+              {" "}
+              no limit to the innovation
+            </span>{" "}
+            one can bring to the table!
+            <br />
+            <br />
+            The solutions presented{" "}
+            <span class="emphasis">should ideally make use of technology</span>,
+            including, but not limited to, at least one of the following :{" "}
+            <br /> <br />
             <ul class="tlist">
-              <li> Artifical Intelligence</li>
-              <li> Machine Learning </li>
-              <li> Blockchain and Smart Contracts </li>
-              <li>Cloud Computing </li>
-              <li>Distributed Systems</li>
-              <li>IOT</li>
-              <li>Big Data</li>
+              <li>
+                <span class="emphasis"> ARTIFICAL INTELLIGENCE</span>
+              </li>
+              <li>
+                <span class="emphasis"> BLOCKCHAIN AND SMART CONTRACTS</span>
+              </li>
+              <li>
+                <span class="emphasis"> CLOUD COMPUTING</span>
+              </li>
+              <li>
+                <span class="emphasis"> DISTRIBUTED SYSTEMS</span>
+              </li>
+              <li>
+                <span class="emphasis"> IOT (INTERNET OF THINGS)</span>
+              </li>
+              <li>
+                <span class="emphasis"> BIG DATA</span>
+              </li>
             </ul>
           </p>
         </div>
+
         <div class="probthings">
-          <h3>Problem Statement</h3>
+          <h1>Problem Statements</h1>
           <br />
           <p>
             <ol class="tlist">
-              <li> Improving the state of the hybrid education model</li>
-              <li> Smart Carbon Footprint tracking and reduction</li>
-              <li> Optimizing The Venture Capital Pipeline</li>
-              <li> Technologically Enabling small businesses</li>
+              <li> Improving the State of the Hybrid Education Model</li>
+              <li> Smart Carbon Footprint Tracking and Reduction</li>
+              <li> Financial Inclusion For All</li>
+              <li> Technologically Enabling Small Businesses</li>
+            </ol>
+          </p>
+        </div>
+
+        <div class="probthings">
+          <Sponsor />
+        </div>
+
+        <div class="probthings">
+          <h1>Event Timeline</h1>
+          <br />
+          <p>
+            <ol class="tlist">
+              <li>
+                REGISTRATIONS OPEN => <span class="emphasis">18/10/2021</span>
+              </li>
+              <li>
+                TEAM FORMATION DEADLINE =>{" "}
+                <span class="emphasis">22/10/2021</span>
+              </li>
+              <li>
+                ROUND ONE FINAL SUBMISSION DEADLINE =>{" "}
+                <span class="emphasis">26/10/2021</span>
+              </li>
+              <li>
+                FINAL ROUND => <span class="emphasis">28/10/2021</span>
+              </li>
+            </ol>
+          </p>
+        </div>
+
+        <div class="probthings">
+          <h1>Additional Details</h1>
+          <br />
+          <p>
+            <ol class="tlist">
+              <li>
+                <span class="emphasis">TEAM SIZE: 2-3</span>
+              </li>
             </ol>
           </p>
         </div>

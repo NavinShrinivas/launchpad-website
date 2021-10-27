@@ -4,12 +4,13 @@
     height:90px;
     align-items: center;
     margin: var(--gutter);
-    font-family: "Roboto", sans-serif;
+    color: #4dff00!important;
+    font-family: 'VT323', monospace !important;
+    text-decoration: underline;
 }
 .links{
     display : flex;
     list-style: none;
-    font-family: "Roboto", sans-serif;
     font-size: 20px;
     padding-right: 70px;
     margin-left: auto;
@@ -17,18 +18,21 @@
 }
 .logo{
     list-style: none;
-    font-family: "JetBrains Mono", monospace !important;
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 1.5px;
     padding-left : 50px;
 }
 .linktext{
-    font-size : 30px;
+    font-size : 2rem;
 }
 a{
     color:white;
     text-decoration:none;
 }
-
-
-
+.campus{
+    font-size : 1.7rem;
+    text-decoration: none!important;
+}
+.cshidden{
+    display: none;
+}
