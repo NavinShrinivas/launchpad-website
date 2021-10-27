@@ -1,7 +1,7 @@
 # LaunchPad Website
 
 ## About
-  This here contains the code for out launchpad website , It's  made using react , html and css.
+  This here contains the code for our launchpad website , It's  made using react , html and css.
   ```npm start``` to run in local , make ure you also do  ```npm install``` in root.
   
 ## Hosting
